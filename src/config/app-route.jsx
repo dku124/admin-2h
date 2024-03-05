@@ -56,6 +56,7 @@ import Profile from './../pages/profile/profile.js';
 import Calendar from './../pages/calendar/calendar.js';
 import Settings from './../pages/settings/settings.js';
 import Helper from './../pages/helper/helper.js';
+import Accounts from '../pages/accounts/Accounts.jsx';
 
 const AppRoute = [
   {
@@ -64,6 +65,7 @@ const AppRoute = [
     children: [
     	{ path: '', element: <Navigate to='/dashboard' /> },
     	{ path: 'dashboard', element: <Dashboard /> },
+    	{ path: 'accounts', element: <Accounts /> },
     	{ path: 'analytics', element: <Analytics /> },
     	{ path: 'email/*', 
     		children: [

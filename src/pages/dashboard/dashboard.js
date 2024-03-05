@@ -140,7 +140,8 @@ function Dashboard() {
 	return (
 		<div>
 			<div className="row">
-				{ statsData && statsData.length > 0 && statsData.map((stat, index) => (
+				
+				{/* { statsData && statsData.length > 0 && statsData.map((stat, index) => (
 					<div className="col-xl-3 col-lg-6" key={index}>
 						<Card className="mb-3">
 							<CardBody>
@@ -166,7 +167,7 @@ function Dashboard() {
 							</CardBody>
 						</Card>
 					</div>
-				))}
+				))} */}
 		
 				<div className="col-xl-6">
 					<Card className="mb-3">
