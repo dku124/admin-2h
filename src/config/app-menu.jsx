@@ -1,5 +1,5 @@
 const Menu = [
-	{ is_header: true, title: 'Navigation' },
+	{ is_header: true, title: 'MANAGER' },
 	{ path: '/dashboard', icon: 'bi bi-cpu', title: 'Dashboard' },
 	{ path: '/analytics', icon: 'bi bi-bar-chart', title: 'Analytics' },
 	{ path: '/email', icon: 'bi bi-envelope', title: 'Email',

@@ -238,11 +238,11 @@ function TopNav() {
 	});
 		
 	return (
-		<React.Fragment>
+		<>
 			<div id="top-nav" className="app-top-nav">
 				<TopNavNav />
 			</div>
-		</React.Fragment>
+		</>
 	)
 }
 

@@ -71,9 +71,9 @@ function Header() {
 			<div className="brand">
 				<Link to="/" className="brand-logo">
 					<span className="brand-img">
-						<span className="brand-img-text text-theme">H</span>
+						<span className="brand-img-text text-theme">2H</span>
 					</span>
-					<span className="brand-text">HUD ADMIN</span>
+					<span className="brand-text">2H SOLUTIONS</span>
 				</Link>
 			</div>
 			

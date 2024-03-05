@@ -60,7 +60,7 @@ function Sidebar() {
 	}
 		
 	return (
-		<React.Fragment>
+		<>
 			<div id="sidebar" className="app-sidebar">
 				<PerfectScrollbar className="app-sidebar-content" options={{suppressScrollX: true}}>
 					<SidebarNav />
@@ -72,7 +72,7 @@ function Sidebar() {
 				</PerfectScrollbar>
 			</div>
 			<button className="app-sidebar-mobile-backdrop" onClick={toggleAppSidebarMobile}></button>
-		</React.Fragment>
+		</>
 	)
 }
 
